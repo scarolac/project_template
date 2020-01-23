@@ -6,11 +6,10 @@ Source: https://hiltmon.com/blog/2013/07/03/a-simple-c-plus-plus-project-structu
 
 ## .gitignore
 
-    # Ignore the build and lib dirs
-    build
+    # Ignore the lib dir
     lib/*
 
-    # Ignore any executables
+    # Ignore any executables (possibly unneeded due to makefile)
     bin/*
 
     <if on MacOS>
